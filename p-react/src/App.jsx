@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import Time from './Components/Clock/Time'
+import UseRef from './Components/UseRef'
 
 
 
 const App = () => {
   return (
     <div>
-  <Time/>
+<UseRef/>
     </div>
   )
 }
