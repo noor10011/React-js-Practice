@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import ForwardRef from './ForwardRef';
 
 const UseRef = () => {
 const inputRef = useRef(null) ;  
@@ -31,6 +32,11 @@ const toggelHandler = () => {
       <button onClick={inputHandler}>Control input field</button>
       <h1 ref={h1Ref}>Use of useRef</h1>
       <button onClick={h1Handler}>Control h1 Tag</button>
+      <hr/>
+      <h1>Use of ForwardRef</h1>
+      <ForwardRef ref={inputRef}/>
+       <button onClick={inputHandler}>Control input field</button>
+
     </div>
 
   )
