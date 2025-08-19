@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import UseActionStateHook from './Components/UseActionStateHook'
+import React from 'react'
+import Main from './Components/Contextapi/Main'
+
 
 
 
@@ -8,7 +9,7 @@ import UseActionStateHook from './Components/UseActionStateHook'
 const App = () => {
   return (
     <div>
-<UseActionStateHook/>
+<Main/>
     </div>
   )
 }
