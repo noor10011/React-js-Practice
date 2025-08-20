@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from './Components/Contextapi/Main'
+import UseReducer from './Components/UseReducer'
 
 
 
@@ -9,7 +9,7 @@ import Main from './Components/Contextapi/Main'
 const App = () => {
   return (
     <div>
-<Main/>
+<UseReducer/>
     </div>
   )
 }
