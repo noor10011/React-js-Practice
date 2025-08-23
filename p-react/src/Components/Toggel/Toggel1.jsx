@@ -5,7 +5,7 @@ const Toggel1 = () => {
     const[display,setDisplay] = useState(true)
   return (
     <div>
-      <h1>Toggel Component</h1>
+      <h1>Toggel Component for hide & show</h1>
       <button onClick={()=>setDisplay(!display)}>Toggel</button>
       {display ? <Toggel2/> :null }
     </div>
